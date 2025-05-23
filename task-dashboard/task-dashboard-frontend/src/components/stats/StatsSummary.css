@@ -1,0 +1,50 @@
+.stats-summary {
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.stat-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+}
+
+.stat-value {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.stat-label {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.completed-card .stat-icon {
+  color: #4caf50;
+}
+
+.pending-card .stat-icon {
+  color: #ff9800;
+}
+
+.time-card .stat-icon {
+  color: #2196f3;
+}
+
+.productivity-card .stat-icon {
+  color: #9c27b0;
+}

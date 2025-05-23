@@ -1,0 +1,19 @@
+.time-charts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.time-chart-card {
+  height: 100%;
+}
+
+.chart-title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.canvas-container {
+  height: 300px;
+  position: relative;
+}

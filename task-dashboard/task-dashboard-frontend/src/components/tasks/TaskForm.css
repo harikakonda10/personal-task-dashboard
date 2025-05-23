@@ -1,0 +1,15 @@
+.task-form {
+  padding: 16px 0;
+}
+
+.form-field {
+  margin-bottom: 16px;
+}
+
+.task-form-dialog .MuiDialogContent-root {
+  padding-top: 8px;
+}
+
+.task-form-dialog .MuiDialogActions-root {
+  padding: 16px 24px;
+}

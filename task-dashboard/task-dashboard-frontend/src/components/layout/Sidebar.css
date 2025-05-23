@@ -1,0 +1,38 @@
+.sidebar {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.sidebar-paper {
+  width: 240px;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #f5f5f5;
+}
+
+.sidebar-paper-dark {
+  background-color: #333;
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.sidebar-header {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-item {
+  margin: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-item.active {
+  background-color: rgba(63, 81, 181, 0.12);
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

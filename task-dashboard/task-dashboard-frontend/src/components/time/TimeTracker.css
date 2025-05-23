@@ -1,0 +1,38 @@
+.time-tracker {
+  margin-bottom: 24px;
+}
+
+.tracker-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.timer-icon {
+  margin-right: 8px;
+}
+
+.timer-display {
+  font-family: monospace;
+  font-size: 3rem;
+  text-align: center;
+  margin: 24px 0;
+}
+
+.active-task-info {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.stop-button {
+  display: block;
+  margin: 0 auto;
+}
+
+.start-tracking {
+  margin-top: 16px;
+}
+
+.start-button {
+  height: 100%;
+}

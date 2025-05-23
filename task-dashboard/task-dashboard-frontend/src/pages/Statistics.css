@@ -1,0 +1,25 @@
+.statistics {
+  padding: 16px;
+}
+
+.page-title {
+  margin-bottom: 24px;
+}
+
+.filters-paper {
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.loading,
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 1.2rem;
+}
+
+.error {
+  color: #f44336;
+}
